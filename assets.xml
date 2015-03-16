@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <assets PGFVersion="0.19" GSCVersion="0.10.5">
-  <sounds />
+  <sounds>
+    <sound name="Odjbox-OttoCroy">
+      <file name="Odjbox-OttoCroy.ogg" size="5026037" />
+    </sound>
+    <sound name="Slap-SoundMaster13-49669815">
+      <file name="Slap-SoundMaster13-49669815.ogg" size="12991" />
+    </sound>
+  </sounds>
   <images>
     <image name="game over">
       <file name="game over.png" size="835996" />
@@ -23,12 +30,6 @@
     <image name="monster 4">
       <file name="monster 4.png" size="91554" />
     </image>
-    <image name="play again">
-      <file name="play again.png" size="4728" />
-    </image>
-    <image name="start">
-      <file name="start.png" size="4463" />
-    </image>
     <image name="title">
       <file name="title.png" size="142359" />
     </image>
@@ -37,6 +38,12 @@
     </image>
     <image name="transparent">
       <file name="transparent.png" size="47955" />
+    </image>
+    <image name="play_game.v1.0.2">
+      <file name="play_game.v1.0.2.png" size="4478" />
+    </image>
+    <image name="loading-animation">
+      <file name="loading-animation.png" size="2408" />
     </image>
   </images>
   <behaviors />

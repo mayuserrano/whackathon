@@ -49,12 +49,10 @@
           <attributes>
             <text id="name">Timer</text>
             <text id="bundleName">Timer.behavior</text>
-            <index id="timerType">1</index>
+            <index id="timerType">0</index>
             <real id="interval">
               <expression>
-                <string xml:space="preserve">random(1, </string>
-                <string xml:space="preserve">10</string>
-                <string xml:space="preserve">)</string>
+                <string xml:space="preserve">random(1,10)</string>
               </expression>
             </real>
             <boolean id="runToCompletion">true</boolean>
@@ -165,6 +163,19 @@
             </text>
           </attributes>
         </behavior>
+        <behavior id="id227948" class="PlaySoundAction" enabled="true">
+          <attributes>
+            <text id="name">Play Sound</text>
+            <text id="bundleName">PlaySound.behavior</text>
+            <sound id="soundName">Slap-SoundMaster13-49669815</sound>
+            <boolean id="loop">true</boolean>
+            <boolean id="runToCompletion">false</boolean>
+            <boolean id="positional">false</boolean>
+            <boolean id="dopplerShift">false</boolean>
+            <real id="volume">1</real>
+            <real id="pitch">1</real>
+          </attributes>
+        </behavior>
         <behavior id="id929257" class="SpawnAction" enabled="true">
           <attributes>
             <text id="name">Spawn Actor</text>
@@ -179,6 +190,36 @@
           </attributes>
         </behavior>
       </behaviors>
+    </behavior>
+    <behavior id="id626745" class="TimerBehavior" enabled="false">
+      <attributes>
+        <text id="name">Timer</text>
+        <text id="bundleName">Timer.behavior</text>
+        <index id="timerType">0</index>
+        <real id="interval">1</real>
+        <boolean id="runToCompletion">false</boolean>
+      </attributes>
+    </behavior>
+    <behavior id="id404652" class="PlaySoundAction" enabled="true">
+      <attributes>
+        <text id="name">Play Sound</text>
+        <text id="bundleName">PlaySound.behavior</text>
+        <sound id="soundName">Odjbox-OttoCroy</sound>
+        <boolean id="loop">false</boolean>
+        <boolean id="runToCompletion">true</boolean>
+        <boolean id="positional">false</boolean>
+        <boolean id="dopplerShift">false</boolean>
+        <real id="volume">1</real>
+        <real id="pitch">1</real>
+      </attributes>
+    </behavior>
+    <behavior id="id529069" class="PlayMusicAction" enabled="true">
+      <attributes>
+        <text id="name">Play Music</text>
+        <text id="bundleName">PlayMusic.behavior</text>
+        <music id="musicName" />
+        <boolean id="loop">true</boolean>
+      </attributes>
     </behavior>
   </behaviors>
   <aspects>

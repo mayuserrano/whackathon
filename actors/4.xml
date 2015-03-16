@@ -18,7 +18,7 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">start</image>
+    <image id="image" />
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
@@ -63,11 +63,39 @@
           <attributes>
             <text id="name">Change Scene</text>
             <text id="bundleName">ChangeScene.behavior</text>
-            <text id="sceneKey">id492024</text>
+            <text id="sceneKey">id858907</text>
             <boolean id="enableAdvertisement">false</boolean>
           </attributes>
         </behavior>
       </behaviors>
+    </behavior>
+    <behavior id="id103687" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Rule</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+    </behavior>
+    <behavior id="id490526" class="PlaySoundAction" enabled="true">
+      <attributes>
+        <text id="name">Play Sound</text>
+        <text id="bundleName">PlaySound.behavior</text>
+        <sound id="soundName">Odjbox-OttoCroy</sound>
+        <boolean id="loop">false</boolean>
+        <boolean id="runToCompletion">true</boolean>
+        <boolean id="positional">false</boolean>
+        <boolean id="dopplerShift">false</boolean>
+        <real id="volume">1</real>
+        <real id="pitch">1</real>
+      </attributes>
+    </behavior>
+    <behavior id="id726078" class="PlayMusicAction" enabled="true">
+      <attributes>
+        <text id="name">Play Music</text>
+        <text id="bundleName">PlayMusic.behavior</text>
+        <music id="musicName" />
+        <boolean id="loop">true</boolean>
+      </attributes>
     </behavior>
   </behaviors>
   <aspects>

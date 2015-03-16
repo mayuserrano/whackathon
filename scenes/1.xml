@@ -89,6 +89,7 @@
               <real id="height">79</real>
             </size>
             <angle id="rotation">0</angle>
+            <image id="image">play_game.v1.0.2</image>
           </attributes>
           <aspects>
             <graphics>
